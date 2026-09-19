@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#cf2c30", "on-primary-fixed-variant": "#003ea8", "surface-container": "#eaedff", "secondary-container": "#6cf8bb", "on-error": "#ffffff", "on-surface-variant": "#434655", "on-secondary-container": "#00714d", "surface-container-high": "#e2e7ff", "inverse-primary": "#b4c5ff", "on-tertiary-container": "#ffecea", "surface-dim": "#d2d9f4", "surface-variant": "#dae2fd", "surface-tint": "#0053db", "on-error-container": "#93000a", "outline-variant": "#c3c6d7", "surface-container-lowest": "#ffffff", "on-surface": "#131b2e", "primary-container": "#2563eb", "primary": "#004ac6", "surface-container-highest": "#dae2fd", "surface-container-low": "#f2f3ff", "error-container": "#ffdad6", "tertiary-fixed": "#ffdad7", "on-secondary-fixed": "#002113", "on-secondary": "#ffffff", "on-background": "#131b2e", "primary-fixed": "#dbe1ff", "tertiary-fixed-dim": "#ffb3ad", "background": "#faf8ff", "inverse-surface": "#283044", "on-primary": "#ffffff", "primary-fixed-dim": "#b4c5ff", "tertiary": "#ab0b1c", "outline": "#737686", "inverse-on-surface": "#eef0ff", "on-tertiary": "#ffffff", "on-tertiary-fixed-variant": "#930013", "on-tertiary-fixed": "#410004", "surface": "#faf8ff", "on-primary-container": "#eeefff", "secondary-fixed": "#6ffbbe", "on-secondary-fixed-variant": "#005236", "error": "#ba1a1a", "secondary": "#006c49", "on-primary-fixed": "#00174b", "secondary-fixed-dim": "#4edea3", "surface-bright": "#faf8ff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin": "1.5rem", "space-xs": "0.25rem", "space-xl": "1.5rem", "gutter-dense": "0.5rem", "space-md": "0.75rem", "space-lg": "1rem", "margin-mobile": "0.75rem", "space-sm": "0.5rem", "gutter": "1rem" }, "fontFamily": { "body-sm": [ "Inter" ], "headline-lg": [ "Inter" ], "label-sm": [ "Inter" ], "headline-xl-mobile": [ "Inter" ], "body-md": [ "Inter" ], "data-mono-md": [ "JetBrains Mono" ], "label-md": [ "Inter" ], "data-mono-sm": [ "JetBrains Mono" ], "body-xs": [ "Inter" ], "headline-xl": [ "Inter" ], "headline-md": [ "Inter" ] }, "fontSize": { "body-sm": [ "13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-lg": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-xl-mobile": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" } ], "data-mono-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "600" } ], "data-mono-sm": [ "12px", { "lineHeight": "16px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-xs": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-xl": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-md": [ "16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-screen w-64 bg-inverse-surface text-inverse-on-surface z-50 flex flex-col justify-between select-none"><div class="flex flex-col"><div class="h-16 px-space-lg flex items-center gap-space-sm border-b border-on-surface-variant/20"><img alt="Brand logo. - Primary color: #2563eb
+- Font: inter
+- Mode: light
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XFfuHw-Ops5_NFOm-PEuwg5c6VqtCs0fil4SHYpDbOYICncw60k9a4MZP20Kfhw_amUw5KkmrEJL9MqdRXb0E4tI_0VRJFBMrtMyhBLoXBqzU_5YNoB8Dd_LYzSJXXejhiNODmhYDgjZhSgYEEDx7aW1aWgtCOxkluS21DonOtnGdjixRxUTSlu1hYeMZnSMTxOeBZHeCD0nH3jABqGR233SRBAC6RmCv8fXdETIiu0dXMVWx6T1xJ"/><span class="font-headline-md text-headline-md tracking-tight text-surface-container-lowest font-semibold">FreightVerify</span></div><div class="px-space-lg pt-space-xl pb-space-xs font-label-sm text-label-sm uppercase tracking-wider text-outline-variant font-semibold">Operations</div><nav class="px-space-sm space-y-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-outline-variant hover:bg-surface-container-highest/20 hover:text-surface-container-lowest transition-colors" data-path="inbox-and-triage" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">inbox</span><span class="font-body-sm text-body-sm">Inbox &amp; Triage</span></div><span class="px-space-xs py-0.5 rounded font-data-mono-sm text-data-mono-sm bg-primary-container/30 text-primary-fixed border border-primary-container/40">12</span></a><a aria-current="page" class="flex items-center justify-between px-space-md py-space-sm transition-colors bg-primary-container text-on-primary-container font-semibold rounded-lg" data-path="document-audits" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">fact_check</span><span class="font-body-sm text-body-sm">Document Audits</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-outline-variant hover:bg-surface-container-highest/20 hover:text-surface-container-lowest transition-colors" data-path="si-builder" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">description</span><span class="font-body-sm text-body-sm">SI Builder</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-outline-variant hover:bg-surface-container-highest/20 hover:text-surface-container-lowest transition-colors" data-path="audit-history" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">history</span><span class="font-body-sm text-body-sm">Audit History</span></div></a></nav></div><div class="p-space-sm border-t border-on-surface-variant/20"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-outline-variant hover:bg-surface-container-highest/20 hover:text-surface-container-lowest transition-colors" data-path="system-settings" href="#"><span class="material-symbols-outlined text-[18px]">settings</span><span class="font-body-sm text-body-sm">Settings</span></a></div></aside><div class="pl-64 flex flex-col min-h-screen"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest border-b border-outline-variant/30 z-40 px-space-xl flex items-center justify-between"><div class="flex items-center gap-space-sm font-body-sm text-body-sm"><span class="text-outline font-body-sm">Audit Case</span><span class="text-outline-variant">/</span><span class="font-data-mono-sm text-data-mono-sm text-on-surface font-semibold">#8841 — Hapag-Lloyd EDI</span></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs px-space-sm py-1 bg-secondary-container/30 border border-secondary-container rounded font-label-sm text-label-sm text-on-secondary-container uppercase tracking-wider"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span></span><span>Live AI Online</span></div><button class="relative p-space-xs text-on-surface-variant hover:text-on-surface transition-colors flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-tertiary"></span></button><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="h-8 w-8 rounded-full bg-surface-container-high border border-outline-variant/50 flex items-center justify-center font-label-sm text-label-sm text-on-surface font-semibold">MV</div></div></div></header><main class="w-full pt-16 bg-surface flex-1 px-space-xl py-space-lg"><div class="flex flex-col w-full">
+<!-- Operational Metrics & Triage Header Ribbon -->
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-lg">
+<!-- Category Triage Bar (Pill-Style Selection) -->
+<div class="flex items-center gap-space-sm bg-surface-container-lowest p-1 rounded-full shadow-sm">
+<button class="text-outline-variant bg-surface-container-low/70 hover:bg-surface-container-low rounded-full px-4 py-1.5 font-label-md text-label-md font-medium transition-all flex items-center gap-1.5" type="button">
+<span>Spam</span>
+<span class="font-data-mono-sm text-data-mono-sm text-outline">42</span>
+</button>
+<button class="text-on-surface-variant bg-surface-container-lowest hover:bg-surface-container-low rounded-full px-4 py-1.5 font-label-md text-label-md font-medium transition-all flex items-center gap-1.5" type="button">
+<span>General Inquiries</span>
+<span class="font-data-mono-sm text-data-mono-sm text-outline">8</span>
+</button>
+<button class="bg-inverse-surface text-surface-container-lowest rounded-full px-4 py-1.5 font-label-md text-label-md font-semibold shadow-sm flex items-center gap-1.5" type="button">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span>Document Checks</span>
+<span class="font-data-mono-sm text-data-mono-sm text-secondary-container bg-inverse-surface/80 px-1.5 py-0.2 rounded-full">3</span>
+</button>
+</div>
+<!-- Metadata Stream & Time Stamp -->
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs bg-surface-container-lowest px-3 py-1 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-outline text-[16px]">schedule</span>
+<span class="text-outline font-medium">Ingested 14m ago</span>
+<span class="text-outline-variant">•</span>
+<span class="font-data-mono-sm text-data-mono-sm font-semibold text-on-surface">Hapag-Lloyd EDI Stream #HL-9812</span>
+</div>
+<div class="hidden lg:flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Dual-Pass OCR Validated</span>
+</div>
+</div>
+</div>
+<!-- Document Context KPI Micro-Strip -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md mb-space-lg">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Consignment Key</p>
+<p class="font-data-mono-md text-data-mono-md font-bold text-on-surface mt-0.5">HL-BKG-2026-90412</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[24px] bg-primary-fixed/30 p-2 rounded-lg">inventory_2</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Audit Integrity</p>
+<p class="font-data-mono-md text-data-mono-md font-bold text-tertiary mt-0.5">66.7% Clean Match</p>
+</div>
+<div class="relative w-8 h-8 flex items-center justify-center">
+<svg class="w-8 h-8 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-high" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="67, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-data-mono-sm text-[9px] font-bold text-tertiary">2/6</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Vessel &amp; Voyage</p>
+<p class="font-body-md text-body-md font-semibold text-on-surface mt-0.5">AL NEFUD • 042E</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[24px] bg-surface-container p-2 rounded-lg">directions_boat</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Audit Status</p>
+<p class="font-label-md text-label-md font-bold text-tertiary uppercase tracking-wider mt-0.5 flex items-center gap-1">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary"></span>
+          Action Required
+        </p>
+</div>
+<span class="material-symbols-outlined text-tertiary text-[24px] bg-error-container/40 p-2 rounded-lg">error_outline</span>
+</div>
+</div>
+<!-- Main Split-Screen Document Audit Workspace -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<!-- LEFT CARD: Reference Document (SI) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<!-- Reference Document Header Bar -->
+<div class="bg-primary-fixed/25 px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">SI_2026_0919.pdf</h2>
+<span class="font-data-mono-sm text-data-mono-sm text-primary font-semibold bg-primary-fixed/50 px-2 py-0.5 rounded">v1.2</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium">Shipping Instruction Ground Truth</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="bg-secondary-container/30 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-semibold rounded-full px-2.5 py-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>Verified Source</span>
+</span>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant flex items-center justify-center transition-colors" title="Download Reference SI" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+</div>
+</div>
+<!-- Field Stack (Ground Truth Reference) -->
+<div class="divide-y divide-surface-container/60 flex-1 flex flex-col">
+<!-- Shipper Entity -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Shipper Entity</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-01</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Global Ocean Freight Ltd. (Shenzhen Branch)</p>
+<p class="font-data-mono-sm text-data-mono-sm text-on-surface-variant mt-0.5">Tax ID: CN-91440300MA5EXXX99L</p>
+</div>
+<!-- Consignee -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Consignee</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-02</span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Acme Freight Corp</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">1042 Industrial Parkway, Suite 400, Long Beach, CA 90802, USA</p>
+</div>
+<!-- Container ID & Type -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Container ID &amp; Type</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-03</span>
+</div>
+<p class="font-data-mono-md text-data-mono-md font-bold text-on-surface tracking-wide">MSKU-908214-7</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">40' High Cube Dry Van (Standard Security Lock)</p>
+</div>
+<!-- Gross Weight -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Verified Gross Weight (VGM)</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-04</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-data-mono-md text-headline-md font-bold text-on-surface">12,450 KG</span>
+<span class="bg-surface-container text-on-surface-variant px-2 py-0.5 rounded text-[11px] font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">scale</span>
+              Certified Scale Ticket Attached
+            </span>
+</div>
+<p class="font-data-mono-sm text-data-mono-sm text-outline mt-1">Tolerance Margin: ±250 KG (IMO SOLAS Guidelines VI/2)</p>
+</div>
+<!-- Seal Number -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Seal Number</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-05</span>
+</div>
+<p class="font-data-mono-md text-data-mono-md font-bold text-on-surface">SL-8840192</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">High-Security Bolt Seal ISO 17712 Compliant</p>
+</div>
+<!-- Route & Ports -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Port of Loading &amp; Discharge</span>
+<span class="font-data-mono-sm text-[11px] text-outline-variant font-mono">FLD-06</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Shenzhen (CNSZX)</span>
+<span class="material-symbols-outlined text-outline text-[16px]">arrow_forward</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Los Angeles (USLAX)</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Terminal: Yantian International Pier 4 → Pier 400 APM Terminals</p>
+</div>
+</div>
+<!-- Source Footer Metadata -->
+<div class="px-6 py-3 bg-surface-container-low/30 font-data-mono-sm text-[11px] text-outline flex items-center justify-between">
+<span>SHA-256: 7e92bc4498...120f</span>
+<span>Original Timestamp: 2026-09-19 08:34:11 GMT</span>
+</div>
+</div>
+<!-- RIGHT CARD: Carrier Draft (BL) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<!-- Carrier Draft Header Bar -->
+<div class="bg-error-container/30 px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/15 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">assignment_late</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Draft_BL_HAPAG_992.pdf</h2>
+<span class="font-data-mono-sm text-data-mono-sm text-tertiary font-semibold bg-error-container/60 px-2 py-0.5 rounded">REV 01</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium">Hapag-Lloyd Line Carrier Draft</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="bg-error-container text-on-error-container font-label-sm text-label-sm uppercase tracking-wider font-semibold rounded-full px-2.5 py-1 flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>2 Errors Found</span>
+</span>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant flex items-center justify-center transition-colors" title="Side-by-side diff overlay" type="button">
+<span class="material-symbols-outlined text-[18px]">difference</span>
+</button>
+</div>
+</div>
+<!-- Field Stack (Carrier Draft Extraction & Validation Diff) -->
+<div class="divide-y divide-surface-container/60 flex-1 flex flex-col">
+<!-- Shipper Entity (Match) -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Shipper Entity</span>
+<span class="bg-secondary-container/30 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check</span>
+              Match
+            </span>
+</div>
+<p class="font-body-md text-body-md font-semibold text-on-surface">Global Ocean Freight Ltd. (Shenzhen Branch)</p>
+<p class="font-data-mono-sm text-data-mono-sm text-secondary mt-0.5">100% Lexical &amp; Entity Alignment</p>
+</div>
+<!-- Consignee (Typo Warning) -->
+<div class="px-6 py-4 bg-tertiary-fixed/15 hover:bg-tertiary-fixed/25 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary font-semibold">Consignee</span>
+<span class="bg-error-container/70 text-on-error-container px-2.5 py-0.5 rounded-md font-label-sm text-label-sm font-semibold inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">error</span>
+              Typo: Expected Corp
+            </span>
+</div>
+<div class="flex items-center gap-2">
+<p class="font-body-md text-body-md font-semibold text-tertiary line-through decoration-tertiary decoration-2">Acme Freight Inc</p>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<p class="font-body-md text-body-md font-semibold text-secondary">Acme Freight Corp</p>
+</div>
+<div class="mt-1.5 flex items-start gap-1.5 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] shrink-0 mt-0.5">info</span>
+<span>Mismatched legal suffix will cause automatic US Customs Automated Commercial Environment (ACE) entry rejection.</span>
+</div>
+</div>
+<!-- Container ID & Type (Match) -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Container ID &amp; Type</span>
+<span class="bg-secondary-container/30 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check</span>
+              Match
+            </span>
+</div>
+<p class="font-data-mono-md text-data-mono-md font-bold text-on-surface tracking-wide">MSKU-908214-7</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">40' High Cube Dry Van</p>
+</div>
+<!-- Gross Weight (CRITICAL DISCREPANCY) -->
+<div class="px-6 py-4 bg-tertiary-fixed/20 hover:bg-tertiary-fixed/30 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary font-bold">Gross Weight (Carrier Draft)</span>
+<span class="bg-tertiary text-on-tertiary font-label-sm text-label-sm font-bold px-2.5 py-1 rounded shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">balance</span>
+              Mismatch: -2,250 KG
+            </span>
+</div>
+<div class="flex items-baseline gap-3">
+<span class="font-data-mono-md text-headline-md font-bold text-tertiary line-through decoration-tertiary decoration-2">10,200 KG</span>
+<span class="material-symbols-outlined text-outline text-[16px]">arrow_forward</span>
+<span class="font-data-mono-md text-headline-md font-bold text-secondary">12,450 KG (SI Target)</span>
+</div>
+<!-- Red Alert Regulatory Warning Callout -->
+<div class="mt-2.5 bg-surface-container-lowest/90 p-2.5 rounded-lg shadow-sm flex items-start gap-2 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary shrink-0 mt-0.5">cancel</span>
+<div>
+<span class="font-semibold">SOLAS VGM Risk:</span> Gate weight mismatch of 18.07% exceeds maritime regulatory limit (5% maximum allowed discrepancy). Vessel loading will be denied at pier cut-off.
+            </div>
+</div>
+</div>
+<!-- Seal Number (Match) -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Seal Number</span>
+<span class="bg-secondary-container/30 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check</span>
+              Match
+            </span>
+</div>
+<p class="font-data-mono-md text-data-mono-md font-bold text-on-surface">SL-8840192</p>
+<p class="font-data-mono-sm text-data-mono-sm text-secondary mt-0.5">Optical Character Accuracy: 99.8%</p>
+</div>
+<!-- Route & Ports (Match) -->
+<div class="px-6 py-4 hover:bg-surface-container-low/40 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Port of Loading &amp; Discharge</span>
+<span class="bg-secondary-container/30 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check</span>
+              Match
+            </span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Shenzhen (CNSZX)</span>
+<span class="material-symbols-outlined text-outline text-[16px]">arrow_forward</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Los Angeles (USLAX)</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">Direct Routing Confirmed</p>
+</div>
+</div>
+<!-- Carrier Extraction Metadata -->
+<div class="px-6 py-3 bg-surface-container-low/30 font-data-mono-sm text-[11px] text-outline flex items-center justify-between">
+<span>Parser Engine: TradeVision OCR v4.1</span>
+<span>Hapag-Lloyd EDI Stream #HL-9812:ACK</span>
+</div>
+</div>
+</div>
+<!-- Real-Time Discrepancy Breakdown Drawer (Expanded Helper) -->
+<div class="mt-space-lg bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md w-full md:w-auto">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface">Automated Resolution Recommendation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">AI has drafted an electronic Bill of Lading Amendment notice for Hapag-Lloyd operations team.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm self-end md:self-auto">
+<span class="font-data-mono-sm text-data-mono-sm text-outline">Response ETA: &lt; 30 mins</span>
+<button class="text-primary hover:text-on-primary-fixed-variant font-label-md text-label-md font-semibold px-3 py-1.5 rounded hover:bg-surface-container transition-colors flex items-center gap-1" type="button">
+<span>View Draft Email</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Bottom Pinned Action Bar -->
+<div class="sticky bottom-4 z-30 mt-6 bg-surface-container-lowest rounded-xl shadow-xl px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+<!-- Left Status / Confidence Metrics -->
+<div class="flex flex-wrap items-center gap-3">
+<div class="flex items-center gap-2">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-secondary"></span>
+</span>
+<span class="font-body-md text-body-md font-bold text-on-surface">AI Confidence: 99.2%</span>
+</div>
+<span class="text-outline-variant font-light">|</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-tertiary-fixed-variant bg-tertiary-fixed px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+        2 Discrepancies Detected (1 Critical, 1 Typo)
+      </span>
+</div>
+<!-- Right Operations Call-to-Actions -->
+<div class="flex items-center gap-3 w-full md:w-auto justify-end">
+<!-- Request Carrier Amendment (Secondary Action) -->
+<button class="bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant font-label-md text-label-md font-semibold px-4 py-2.5 rounded-lg shadow-sm transition-all flex items-center gap-2 active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary">edit_document</span>
+<span>Request Carrier Amendment</span>
+</button>
+<!-- Approve & Submit BL (Primary Action / Disabled Warning Variant) -->
+<button class="bg-inverse-surface hover:bg-on-surface text-surface-container-lowest font-label-md text-label-md font-semibold px-5 py-2.5 rounded-lg shadow-md transition-all flex items-center gap-2 group active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary-container group-hover:scale-110 transition-transform">task_alt</span>
+<span>Approve &amp; Submit BL</span>
+</button>
+</div>
+</div>
+</div></main></div></body></html>
